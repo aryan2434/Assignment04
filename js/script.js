@@ -74,7 +74,7 @@ function getProductDetails() {
         const productName = selectedProduct.innerText;
 
         // Replace this with the actual API endpoint for fetching product details
-        const productDetailsApiUrl = `http://makeup-api.herokuapp.com/api/v1/products.json?product_name=${encodeURIComponent(productName)}`;
+        const productDetailsApiUrl = `https://makeup-api.herokuapp.com/api/v1/products.json?product_name=${encodeURIComponent(productName)}`;
 
         // Make an actual API call using Fetch
         fetch(productDetailsApiUrl)
